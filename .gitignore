@@ -1,40 +1,61 @@
-allure-results/
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Maven target directory
+/target/
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
-*.iml
-*.ipr
+# Compiled class files
+*.class
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# IntelliJ IDEA files
+/.idea/
+/*.iml
+
+# Eclipse files
 .project
-.settings
-.springBeans
-.sts4-cache
+.classpath
+.settings/
 
-### NetBeans ###
+# NetBeans files
 /nbproject/private/
+/build/
 /nbbuild/
 /dist/
 /nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+/nbactions.xml
+/nb-configuration.xml
 
-### VS Code ###
+# VS Code files
 .vscode/
 
-### Mac OS ###
+# OS-specific files
 .DS_Store
+Thumbs.db
+
+# Maven wrapper files
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# Dependency directories
+/lib/
+/dependency/
+
+# Test reports
+/test-output/
+/surefire-reports/
+/failures/
+
+# Java binaries
+*.jar
+*.war
+*.ear
+
+# Environment-specific files
+.env
+*.env
